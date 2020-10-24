@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  margin-left: 30px;
+}
+.brand-logo {
+  display: inline-block;
+}
+.sh-brand {
+  width: 6rem;
+  height: 2rem;
+}
+nav a{
+  font-size: 22px;
+  color: #056405;
+  font-weight: 300;
+}
+.banner {
+  width: 70vw;
+  height: 70vh;
+  background-image: url(/img/sh-banner.jpg);
+  background-size: cover;
+  margin: 2rem auto;
+}
+.description {
+  text-align: center;
+}
